@@ -1,0 +1,79 @@
+
+body article{
+    background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+main{
+    margin-left: 170px;
+    padding-top: 1em;
+    display: block; 
+}
+floatleft{
+    float: left;
+    margin-right: 4em;
+}
+h1{
+    background-color: #9BC1C2;
+    background-image: url(lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 150px;
+}
+nav {
+    font-weight: bold;
+    float: left;
+    width: 160px;
+    display: block; 
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav a:link { 
+    color: #3F2860; 
+}
+nav a:visited { 
+    color: #497777; 
+}
+nav a:hover { 
+    color: #A26100; 
+    border: 3px inset #333333; 
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border: 3px, outset,  #CCCCCC;
+}
+box-sizing: border-box{
+    box-sizing: border-box;
+}
+.studio{
+    font-style: italic;
+}
+footer {
+    padding: 1em;
+    background-color: #9BC1C2;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    display: block; 
+}
+body{
+    background-color: #3F2860;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    padding-right: 2em;
+    display: block;
+}
+#wrapper {
+    background-color: #F5F5F5;
+    min-width: 1200px;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}

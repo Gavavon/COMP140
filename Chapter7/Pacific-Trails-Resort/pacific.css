@@ -1,0 +1,113 @@
+
+body{
+    background-image: url(background.jpg);
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+header{
+    display: block;
+    background-color: #000033;
+    color: #FFFFFF;
+    font-family: Verdana, Arial, sans-serif;
+}
+h1{
+    line-height: 200%;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    min-height: 72px;
+    margin-bottom: 0;
+}
+h2{
+    color: #3399CC;
+    font-family: Georgia, sans-serif;
+}
+h3 {
+    color: #000033;
+}
+main {
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: block;
+}
+article{
+    padding-left: 5px;
+}
+#homehero {
+    min-height: 300px;
+    background-image: url(coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#yurthero {
+    min-height: 300px;
+    background-image: url(yurt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#trailhero {
+    min-height: 300px;
+    background-image: url(trail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav a:hover {
+    color: #FFFFFF;
+}
+nav a:visited {
+    color: #344873;
+}
+nav a:unvisited {
+    color: #000033;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: block;
+    font-weight: bold;
+    float:left;
+    width: 160px;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+nav a {
+    text-decoration: none;
+}
+dt{
+    color: #000033;
+    font-style: bold;
+}
+.resort{
+    color: #000033;
+    font-size: 1.2em;
+}
+footer {
+    display: block;
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-left: 170px;
+    background-color: #FFFFFF;
+}
+box-sizing: border-box{
+    box-sizing: border-box;
+}
+#wrapper {
+    background-color: #90C7E3;
+    min-width: 700px;
+    max-width: 1024px;
+    box-shadow: 700px 1024px #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
