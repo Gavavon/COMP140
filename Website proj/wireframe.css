@@ -8,6 +8,11 @@ header {
   background-color: #f1f1f1;
   padding: 20px;
   text-align: center;
+  color: white;
+  background-image: url('download.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 nav {
   overflow: hidden;
@@ -29,11 +34,11 @@ column {
   float: left;
   padding: 10px;
 }
-column side {
-  width: 25%;
+column.side {
+  max-width: 300px;
 }
-column middle {
-  width: 50%;
+column.middle {
+  max-width: 600px;
 }
 row {
   content: "";
@@ -41,7 +46,11 @@ row {
   clear: both;
 }
 footer {
-        text-align: center;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
